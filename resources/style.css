@@ -1,0 +1,22 @@
+/*NAVIGATION SECTION*/
+
+
+/*BANNER SECTION*/
+.banner-section {
+    display: flex;
+}
+
+.content-img {
+    margin: 32px 24px;
+    width: 60vw;
+}
+
+.img-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/*INFORMATION SECTION*/
+/*COURSE SECTION*/
+/*THESIS SECTION*/
