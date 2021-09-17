@@ -18,5 +18,19 @@
 }
 
 /*INFORMATION SECTION*/
+.info-section {
+    display: flex;
+}
+
+.info-sidebar {
+    display: flex;
+    flex-direction: column;
+}
+
+.info-sidebar-img {
+
+    width: 35vw;
+    height: auto;
+}
 /*COURSE SECTION*/
 /*THESIS SECTION*/
