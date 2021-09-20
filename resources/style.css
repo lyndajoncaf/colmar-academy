@@ -34,4 +34,15 @@
 }
 
 /*COURSE SECTION*/
+.course-sect-head {
+    text-align: center;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+.course-sect {
+    display: flex;
+}
+
+
 /*THESIS SECTION*/
