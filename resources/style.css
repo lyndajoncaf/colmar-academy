@@ -34,7 +34,7 @@
 }
 
 /*COURSE SECTION*/
-.course-sect-head {
+.sect-head {
     text-align: center;
     margin-top: 32px;
     margin-bottom: 32px;
@@ -58,3 +58,34 @@
 }
 
 /*THESIS SECTION*/
+
+.thesis-sect {
+    display: flex;
+}
+
+.video-sect {
+   
+}
+
+#copyright {
+    text-align: left;
+}
+
+.exhibit-col {
+    display: flex;
+    flex-direction: column;
+ 
+    
+}
+
+.thesis-img {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+
+.footer-li ul{
+    display: flex;
+    list-style: none;
+}
