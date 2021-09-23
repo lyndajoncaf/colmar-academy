@@ -37,6 +37,10 @@ body {
     
 }
 
+span {
+    color: gray;
+}
+
 /*BANNER SECTION*/
 .banner-section {
     display: flex;
