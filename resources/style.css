@@ -1,3 +1,8 @@
+body {
+    margin: 0px;
+}
+
+
 /*NAVIGATION SECTION*/
 .nav-section {
     display: flex;
