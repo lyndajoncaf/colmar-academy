@@ -1,4 +1,13 @@
 /*NAVIGATION SECTION*/
+.nav-section {
+    display: flex;
+}
+
+.nav-section ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
 
 
 /*BANNER SECTION*/
