@@ -1,6 +1,11 @@
 /*NAVIGATION SECTION*/
 .nav-section {
     display: flex;
+    margin-left: 24px;
+}
+
+.nav-section h2 {
+    font-size: 32px;
 }
 
 .nav-section ul {
@@ -10,9 +15,28 @@
 }
 
 
+
+.nav-menu {
+  display: flex;
+ 
+}
+
+.nav-menu ul {
+    
+}
+
+.nav-menu li {
+    margin-left: 8px;
+    margin-right: 8px;
+    font-size: 16px;
+    
+}
+
 /*BANNER SECTION*/
 .banner-section {
     display: flex;
+    margin-top: 32px;
+    margin-left: 24px;
 }
 
 .content-img {
