@@ -86,8 +86,20 @@ span {
     display: flex;
     margin: 24px; 
 }
+ .info-section h2 {
+     font-size: 38px;
+     margin-top: 32px;
+     margin-bottom: 24px;
+ }
 
+ .info-section p {
+     font-size: 20px;
+ }
 
+ .info-section h3 {
+     font-size: 18px;
+     font-weight: 600;
+ }
 
 .info-sidebar {
     display: flex;
