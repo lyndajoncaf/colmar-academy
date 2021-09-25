@@ -61,19 +61,40 @@ span {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin-left: 24px;
+}
+
+.img-info h1 {
+    font-size: 60px;
+    color: rgb(82, 76, 76);
+}
+
+.img-info h3 {
+    font-size: 32px;
+    color: rgb(82, 76, 76);
+}
+
+.img-info button {
+    background-color:rgb(82, 76, 76); ;
+    color: lightgray;
+    font-size: 28px;
+    padding: 8px;
 }
 
 /*INFORMATION SECTION*/
 .info-section {
     display: flex;
-    margin: 24px;
+    margin: 24px; 
 }
+
+
 
 .info-sidebar {
     display: flex;
     flex-direction: row;
     justify-content: center;
     width: 40vw;
+    margin-left: 24px;
 }
 
 .info-sidebar-img {
