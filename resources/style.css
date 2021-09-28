@@ -48,6 +48,7 @@ span {
     display: flex;
     margin-top: 32px;
     margin-left: 24px;
+    background-color: lightgray;
 }
 
 
@@ -85,8 +86,13 @@ span {
 .info-section {
     display: flex;
     margin: 24px; 
+    border: 1px solid gray;
 }
- .info-section h2 {
+
+.info-img-rm {
+    border-left: 1px solid lightgray;
+}
+.info-section h2 {
      font-size: 38px;
      margin-top: 32px;
      margin-bottom: 24px;
@@ -101,17 +107,29 @@ span {
      font-weight: 600;
  }
 
+
 .info-sidebar {
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    width: 40vw;
+    justify-content: space-between;
+    /*width: 40vw;*/
     margin-left: 24px;
 }
 
 .info-sidebar-img {
-    width: 35vw;
+    width: 35%;
     height: auto;
+    margin-right: 18px;
+}
+
+
+.sidebar-img-text {
+    width: 65%;
+    height: auto;
+}
+
+.guest {
+    background-color: rgb(194, 206, 223);
 }
 
 /*COURSE SECTION*/
