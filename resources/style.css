@@ -116,6 +116,16 @@ span {
     margin-left: 24px;
 }
 
+.info-sidebar h3 {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.info-sidebar p {
+    font-size: 28px;
+}
+
+
 .info-sidebar-img {
     width: 35%;
     height: auto;
