@@ -9,9 +9,12 @@ body {
     margin-left: 24px;
     justify-content: space-between;
 }
-
+.logo {
+    height: 100px;
+}
 .nav-section h2 {
-    font-size: 32px;
+    font-size: 36px;
+    margin-right: 500px;
 }
 
 .nav-section ul {
