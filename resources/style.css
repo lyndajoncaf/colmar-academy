@@ -20,23 +20,11 @@ body {
     align-items: center;
 }
 
-
-
-.nav-menu {
-  display: flex;
- 
-}
-
-.nav-menu ul {
-    
-}
-
 .nav-menu li {
     margin-left: 8px;
     margin-right: 8px;
     font-size: 16px;
     font-weight: 700;
-    
 }
 
 span {
