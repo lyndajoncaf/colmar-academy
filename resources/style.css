@@ -1,8 +1,6 @@
 body {
     margin: 0px;
 }
-
-
 /*NAVIGATION SECTION*/
 .main-nav {
     display: flex;
@@ -24,7 +22,6 @@ body {
 .nav-section ul {
     list-style: none;
 }
-
 .nav-menu {
     display: flex;
     align-items: center;
@@ -37,7 +34,6 @@ body {
     font-weight: 600;
     padding: 8px;
 }
-
 span {
     color: gray;
 }
@@ -49,31 +45,24 @@ span {
     margin-left: 24px;
     background-color: lightgray;
 }
-
-
-
 .content-img {
-    /*margin: 32px 24px;*/
     width: 60vw;
+    margin: 32px 24px;
 }
-
 .img-info {
     display: flex;
     flex-direction: column;
     justify-content: center;
     margin-left: 24px;
 }
-
 .img-info h1 {
     font-size: 60px;
     color: rgb(82, 76, 76);
 }
-
 .img-info h3 {
     font-size: 32px;
     color: rgb(82, 76, 76);
 }
-
 .img-info button {
     background-color:rgb(82, 76, 76); ;
     color: lightgray;
@@ -87,26 +76,24 @@ span {
     margin: 24px; 
     border: 1px solid gray;
 }
-
 .info-img-rm {
     border-left: 1px solid lightgray;
+}
+.info-cap {
+    margin-left: 24px;
 }
 .info-section h2 {
      font-size: 38px;
      margin-top: 32px;
      margin-bottom: 24px;
  }
-
- .info-section p {
+.info-section p {
      font-size: 20px;
  }
-
- .info-section h3 {
+.info-section h3 {
      font-size: 18px;
      font-weight: 600;
  }
-
-
 .info-sidebar {
     display: flex;
     flex-direction: row;
@@ -114,29 +101,23 @@ span {
     /*width: 40vw;*/
     margin-left: 24px;
 }
-
 .info-sidebar h3 {
     font-size: 32px;
     font-weight: 700;
 }
-
 .info-sidebar p {
-    font-size: 28px;
+    font-size: 24px;
 }
-
-
 .info-sidebar-img {
     width: 35%;
     height: auto;
-    margin-right: 18px;
+    margin: 16px;
+    height: auto;
 }
-
-
 .sidebar-img-text {
     width: 65%;
     height: auto;
 }
-
 .guest {
     background-color: rgb(194, 206, 223);
 }
