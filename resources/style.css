@@ -1,5 +1,6 @@
 body {
     margin: 0px;
+    border: 5px solid red;
 }
 /*NAVIGATION SECTION*/
 .main-nav {
@@ -72,8 +73,7 @@ span {
 
 /*INFORMATION SECTION MAIN*/
 .info-section {
-    display: flex;
-    margin: 24px; 
+    display: flex;  
     border: 1px solid gray;
 }
 .info-img-rm {
@@ -116,6 +116,7 @@ a {
 .info-sidebar-img {
     width: 35%;
     margin: 16px;
+    
 }
 .guest {
     background-color: rgb(194, 206, 223);
@@ -129,21 +130,41 @@ a {
 }
 
 .course-sect {
-    display: flex;
-    flex-direction: column;
-    
+    /*display: flex;
+    flex-direction: column;*/
+    max-width: 1200px;
+    margin: auto;
+    overflow: auto;
 }
 
-.course-rw-1 {
+.course-rw {
     display: flex;
     flex-direction: row;
-    overflow: hidden;
+    margin-left: 72px;
+    margin-right: 72px;
 }
 
 .course-slide {
-    width: auto;
+    /*width: auto;
     margin-right: 16px;
-    margin-left: 16px;
+    margin-left: 16px;*/
+    float: left;
+    margin: 15px;
+    width: 360px;
+}
+ 
+.desc {
+    margin: 16px;
+    line-height: 1.5rem;
+    text-align: left;
+}
+.desc h2 {
+    margin-top: 8px;
+    margin-bottom: 8px;
+    font-size: 26px;
+}
+.desc p {
+    font-size: 22px;
 }
 
 /*THESIS SECTION*/
