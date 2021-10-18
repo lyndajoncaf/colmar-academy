@@ -6,7 +6,7 @@ body {
 /*NAVIGATION SECTION*/
 .main-nav {
     display: flex;
-    width: 100vw;
+    width: auto;
 }
 .nav-section {
     display: flex;
@@ -28,11 +28,10 @@ body {
     display: flex;
     align-items: center;
     width: 40vw;
-    /*background-color: coral;*/
 }
 .nav-menu li {
     display: inline;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 600;
     padding: 8px;
 }
@@ -171,6 +170,7 @@ a {
 }
 .desc p {
     font-size: 22px;
+    font-weight: 600;
 }
 
 /*THESIS SECTION*/
@@ -178,9 +178,13 @@ a {
 .thesis-sect {
     display: flex;
 }
-
 .video-sect {
-   
+    width: 60%;
+    font-weight: 600;
+}
+video {
+    width: 100%;
+    height: auto;
 }
 
 #copyright {
@@ -191,7 +195,7 @@ a {
 .exhibit-col {
     display: flex;
     flex-direction: column;
- 
+    font-weight: 600;
     
 }
 
