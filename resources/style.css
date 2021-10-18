@@ -55,13 +55,14 @@ span {
     flex-direction: column;
     justify-content: center;
     margin-left: 24px;
+    margin-right: 24px;
 }
 .img-info h1 {
-    font-size: 60px;
+    font-size: 48px;
     color: rgb(82, 76, 76);
 }
 .img-info h3 {
-    font-size: 32px;
+    font-size: 28px;
     color: rgb(82, 76, 76);
 }
 .img-info button {
@@ -82,15 +83,15 @@ span {
 .info-cap {
     margin-left: 24px;
 }
-.info-section h2 {
+.info-cap h2 {
      font-size: 38px;
      margin-top: 32px;
      margin-bottom: 24px;
  }
-.info-section p {
+.info-cap p {
      font-size: 22px;
  }
-.info-section h3 {
+.info-cap h3 {
      font-size: 16px;
      font-weight: 600;
  }
@@ -116,7 +117,6 @@ a {
 .info-sidebar-img {
     width: 35%;
     margin: 16px;
-    
 }
 .guest {
     background-color: rgb(194, 206, 223);
@@ -132,7 +132,6 @@ a {
 .course-sect {
     /*display: flex;
     flex-direction: column;*/
-    max-width: 1200px;
     margin: auto;
     overflow: auto;
 }
@@ -145,14 +144,20 @@ a {
 }
 
 .course-slide {
-    /*width: auto;
+    /*width: 100vw;
     margin-right: 16px;
     margin-left: 16px;*/
-    float: left;
     margin: 15px;
+    float: left;
     width: 360px;
 }
- 
+
+.course-slide img {
+    width: 100%;
+    height: auto;
+}
+
+
 .desc {
     margin: 16px;
     line-height: 1.5rem;
