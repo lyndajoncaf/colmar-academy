@@ -1,6 +1,7 @@
 body {
     margin: 0px;
     border: 5px solid red;
+    font-family: 'Montserrat', sans-serif;
 }
 /*NAVIGATION SECTION*/
 .main-nav {
